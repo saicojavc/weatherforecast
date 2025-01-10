@@ -1,5 +1,6 @@
 package com.saico.weatherforecast.activity
 
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -25,6 +26,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.saico.navigation.Navigator
+import com.saico.weatherforecast.home.navigation.homeGraph
 import com.saico.weatherforecast.ui.theme.WeatherforecastTheme
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
@@ -34,7 +36,7 @@ import javax.inject.Inject
 class MainActivity : ComponentActivity() {
 
     @Inject
-    lateinit var navigation : Navigator
+    lateinit var navigator : Navigator
 
     private val viewModel: MainActivityViewModel by viewModels()
 
@@ -57,7 +59,10 @@ class MainActivity : ComponentActivity() {
                    if(showSplashScreen){
                        //SplashScreen
                    }else{
-
+                        MainContainer(
+                            startDestination = viewModel.firstScreen,
+                            navigator = navigator
+                        )
                    }
                }
             }
@@ -78,7 +83,7 @@ private fun MainContainer(
             startDestination = startDestination,
             modifier = Modifier.weight(1.0f)
         ){
-
+            homeGraph(navController)
         }
     }
 }

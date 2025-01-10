@@ -22,4 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "weatherforecast"
 include(":app")
 include(":core:ui")
-include(":core:iui")
+include(":feature:home")

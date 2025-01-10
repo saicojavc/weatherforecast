@@ -68,6 +68,7 @@ android {
 
 dependencies {
     implementation(project(":core:ui"))
+    implementation(project(":feature:home"))
     implementation(libs.androidx.lifecycle.runtime.compose.android)
     implementation(libs.androidx.navigation.common.ktx)
     coreLibraryDesugaring(libs.com.android.tools.desugar)
