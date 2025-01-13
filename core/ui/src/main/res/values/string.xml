@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mostly_cloudy">Mayormente nublada</string>
+    <string name="future">Futuro</string>
+    <string name="next_7_days">Proximos 7 dias</string>
+
+    <!--    days-->
+    <string name="sat">Sabado</string>
+    <string name="sun">Domingo</string>
+    <string name="mon">Lunes</string>
+    <string name="tue">Martes</string>
+    <string name="wed">Miercoles</string>
+    <string name="thu">Jueves</string>
+    <string name="fri">Viernes</string>
+
+    <string name="storm">Tormenta</string>
+    <string name="cloudy">Nublado</string>
+    <string name="windy">Vientos</string>
+    <string name="cloudy_sunny">Nublado con sol</string>
+    <string name="sunny">Soleado</string>
+    <string name="rainy">Lluvioso</string>
+</resources>

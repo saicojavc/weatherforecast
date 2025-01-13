@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mostly_cloudy">Mostly Cloudy</string>
+    <string name="future">Future</string>
+    <string name="next_7_days">Next 7 Days</string>
+
+<!--    days-->
+    <string name="sat">Saturday</string>
+    <string name="sun">Sunday</string>
+    <string name="mon">Monday</string>
+    <string name="tue">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="thu">Thursday</string>
+    <string name="fri">Friday</string>
+
+
+    <string name="storm">Storm</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="windy">Windy</string>
+    <string name="cloudy_sunny">Cloudy sunny</string>
+    <string name="sunny">Sunny</string>
+    <string name="rainy">Rainy</string>
+</resources>

@@ -23,3 +23,4 @@ rootProject.name = "weatherforecast"
 include(":app")
 include(":core:ui")
 include(":feature:home")
+include(":core:common")
